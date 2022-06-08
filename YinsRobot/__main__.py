@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Yins management bot [✨](https://telegra.ph/file/64f4b1e3ab6d6911447d2.jpg)
+✪ I'm an Senja management bot [✨](https://telegra.ph/file/a1cec3870df7f3c5aa309.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Yins Robot", callback_data="yins_"),
+        InlineKeyboardButton(text="About Senja Robot", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Yins To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Add Senja To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @AyiinXd \
+ You can support the project by contacting @itsmesenjaaah \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -382,7 +382,7 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/AyiinXd/YinsRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/inisenja/SenjaRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
@@ -435,14 +435,14 @@ def yins_about_callback(update, context):
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ Yins support chats*"
+            text="*๏ Senja support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Yins.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AyiinXdSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/AyiinSupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/VinixSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Itsmevinix"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
@@ -456,17 +456,17 @@ def yins_about_callback(update, context):
     elif query.data == "yins_credit":
         query.message.edit_text(
             text=f"๏ Credis for Yins\n"
-            "\nHere Developers Making And Give Inspiration For Made The YinsRobot",
+            "\nHere Developers Making And Give Inspiration For Made The SenjaRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="AyiinXd", url="https://github.com/AyiinXd"),
-                    InlineKeyboardButton(text="Ayiin-Userbot", url="https://github.com/AyiinXd/Ayiin-Userbot"),
+                    InlineKeyboardButton(text="inisenja", url="https://github.com/AyiinXd"),
+                    InlineKeyboardButton(text="Senja-Userbot", url="https://github.com/inisenja/Senja-Userbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="AyiinMusic", url="https://github.com/AyiinXd/AyiinMusic"),
-                    InlineKeyboardButton(text="YinsRobot", url="https://github.com/AyiinXd/YinsRobot"),
+                    InlineKeyboardButton(text="YukkiVinix", url="https://github.com/inisenja/YukkiVinix"),
+                    InlineKeyboardButton(text="SenjaRobot", url="https://github.com/inisenja/SenjaRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
@@ -749,7 +749,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 1829900877:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),

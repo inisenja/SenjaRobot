@@ -42,9 +42,9 @@ This Bot is Created by KennedyProject, If your kanging this without fork at leas
 
 ### Support
 <p>
-<a href="https://t.me/AyiinXd"> <img src="https://img.shields.io/badge/AyiinXd-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
-<a href="https://t.me/AyiinXdSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
-<a href="https://t.me/AyiinSupport"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
+<a href="https://t.me/itsmesenjaaah"> <img src="https://img.shields.io/badge/AyiinXd-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
+<a href="https://t.me/VinixSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
+<a href="https://t.me/Itsmevinix"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
 </p>
 
 ## Credit 

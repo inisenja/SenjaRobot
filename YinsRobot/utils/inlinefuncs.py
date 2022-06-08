@@ -115,27 +115,27 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/YinzRobot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/SenjaRobot"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
     )
 
     msg = f"""
-**[Yins Robot ✨](https://t.me/AyiinXdSupport):**
+**[Senja Robot ✨](https://t.me/VinixSupport):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/AyiinXd)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/inisenja)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/64f4b1e3ab6d6911447d2.jpg",
+            thumb_url="https://telegra.ph/file/a1cec3870df7f3c5aa309.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),

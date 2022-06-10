@@ -83,12 +83,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴀɪ {} !*
-✪ ɪ'ᴍ ᴀɴ sᴇɴᴊᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/e2fcc368ff4a145c75f16.jpg)
+㋭ ɪ'ᴍ ᴀɴ sᴇɴᴊᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/e2fcc368ff4a145c75f16.jpg)
 ────────────────────────
-× *ᴜᴘᴛɪᴍᴇ:* `{}`
-× `{}` *ᴜsᴇʀs, ᴀᴄʀᴏs* `{}` *chats.*
+〆 *ᴜᴘᴛɪᴍᴇ:* `{}`
+〆 `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *chats.*
 ────────────────────────
-✪ Hit /help to see my available commands.
+㋭ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 """
 
 buttons = [

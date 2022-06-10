@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="https://github.com/inisenja/SenjaRobot"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/VinixSupport")
+                        "Support", url="https://t.me/SenjaaSupport")
                 ]
             ]
         )

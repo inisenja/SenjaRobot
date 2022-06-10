@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 👨‍💻", url="https://github.com/inisenja/SenjapRobot"
+            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 👨‍💻", url="https://github.com/inisenja/SenjaRobot"
         ),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​ 🍫", url=f"https://t.me/senjaasupport"),
     ],
@@ -370,8 +370,8 @@ def yins_about_callback(update, context):
             "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
-            "\n\n_Yin's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for YinsRobot.",
+            "\n\n_Senja licensed under the GNU General Public License v3.0_"
+            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ sᴇɴᴊᴀʀᴏʙᴏᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -470,18 +470,6 @@ def yins_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="YᴜᴋᴋɪSᴇɴᴊᴀ", url="https://github.com/inisenja/YukkiSenja"),
                     InlineKeyboardButton(text="SᴇɴᴊᴀRᴏʙᴏᴛ", url="https://github.com/inisenja/SenjaRobot"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),

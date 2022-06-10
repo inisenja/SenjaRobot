@@ -53,3 +53,22 @@ async def _(event):
     except Exception:
 
         await memeks.edit("Asupannya gaada komsol")
+
+@register(pattern="^/asupan ?(.*)")
+async def _(event):
+    try:
+        ayangnya = [
+            ayang
+            async for ayang in event.client.iter_messages(
+                "@CeweLogoPack", filter=InputMessagesFilterPhotos
+            )
+        ]
+        aing = await event.client.get_me()
+        await event.client.send_file(
+            event.chat_id,
+            file=random.choice(ayangnya),
+            caption=f"**Ayang nya** [{owner}](tg://user?id={aing.id})",
+        )
+        await event.delete()
+    except Exception:
+        await event.edit("**GA ADA YANG MAU SAMA LO, MAKANYA CAKEP!.**")

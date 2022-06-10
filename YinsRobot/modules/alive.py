@@ -14,12 +14,12 @@ PHOTO = "https://telegra.ph/file/9a7b0dba8e887abe0cd82.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Senja Robot.** \n\n"
-  TEXT += "㋭ **I'm Working Properly** \n\n"
-  TEXT += f"㋭ **Oᴡɴᴇʀ : [sᴇɴᴊᴀ-ᴇx](https://t.me/itsmesenjaaah)** \n\n"
-  TEXT += f"㋭ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ    :** `{telever}` \n\n"
-  TEXT += f"㋭ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ   :** `{tlhver}` \n\n"
-  TEXT += f"㋭ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
-  TEXT += f"㋭ **SᴇɴᴊᴀRᴏʙᴏᴛ Vᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
+  TEXT += "㋭ **I'ᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ** \n\n"
+  TEXT += f"㋭ **ᴏᴡɴᴇʀ : [sᴇɴᴊᴀ-ᴇx](https://t.me/itsmesenjaaah)** \n\n"
+  TEXT += f"㋭ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ    :** `{telever}` \n\n"
+  TEXT += f"㋭ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ   :** `{tlhver}` \n\n"
+  TEXT += f"㋭ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
+  TEXT += f"㋭ **sᴇɴᴊᴀʀᴏʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
   TEXT += "**Thanks For Adding Me Here ㋭**"
-  BUTTON = [[Button.url("Help", "https://t.me/SenjaManageRobot?start=help"), Button.url("Support", "https://t.me/VinixSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/SenjaManageRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)

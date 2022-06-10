@@ -10,9 +10,9 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from SenjaRobot.events import register
+from YinsRobot.events import register
 
-from SenjaRobot import telethn as tbot, ubot2                 
+from YinsRobot import telethn as tbot, ubot2                 
 
 @register(pattern="^/asupan ?(.*)")
 

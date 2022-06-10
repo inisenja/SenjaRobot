@@ -84,26 +84,28 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *ʜᴀɪ {} !*
 ㋭ ɪ'ᴍ ᴀɴ sᴇɴᴊᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/e2fcc368ff4a145c75f16.jpg)
+㋭ ɪ'ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ғᴇᴀᴛᴜʀᴇꜱ!
 ────────────────────────
 〆 *ᴜᴘᴛɪᴍᴇ:* `{}`
 〆 `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *chats.*
 ────────────────────────
 ㋭ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
+㋭ ᴘᴏᴡᴇʀᴇᴅ 🍫 ʙʏ @itsmesenjaaah
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ sᴇɴᴊᴀ ʀᴏʙᴏᴛ", callback_data="yins_"),
+        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ sᴇɴᴊᴀ ʀᴏʙᴏᴛ••", callback_data="yins_"),
     ],
     [
-        InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="ᴛʀʏ ɪɴʟɪɴᴇ!", switch_inline_query_current_chat=""
+            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 👨‍💻", url="https://github.com/inisenja/SenjapRobot"
         ),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​ 🍫", url=f"https://t.me/senjaasupport"),
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ sᴇɴᴊᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗",
+            text="🥂 ᴀᴅᴅ sᴇɴᴊᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🥂",
             url=f"t.me/{dispatcher.bot.username}?startgroup=new"),
     ],
 ]

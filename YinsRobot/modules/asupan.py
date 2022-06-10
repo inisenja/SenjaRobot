@@ -1,4 +1,4 @@
-# 🥂 © @inisenja
+I# 🥂 © @inisenja
 
 # ⚠️ Don't Remove Credits
 
@@ -54,7 +54,7 @@ async def _(event):
 
         await memeks.edit("Asupannya gaada komsol")
 
-@register(pattern="^/asupan ?(.*)")
+@register(pattern="^/ayang ?(.*)")
 async def _(event):
     try:
         ayangnya = [

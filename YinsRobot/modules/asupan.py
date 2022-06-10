@@ -1,4 +1,4 @@
-# 🔥 © @damssyx
+# 🥂 © @inisenja
 
 # ⚠️ Don't Remove Credits
 
@@ -10,9 +10,9 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from GreyCilik.events import register
+from inisenja.events import register
 
-from GreyCilik import telethn as tbot, ubot2                 
+from inisenja import telethn as tbot, ubot2                 
 
 @register(pattern="^/asupan ?(.*)")
 

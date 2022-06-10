@@ -82,28 +82,28 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an Senja management bot [✨](https://telegra.ph/file/a1cec3870df7f3c5aa309.jpg)
+*ʜᴀɪ {} !*
+✪ ɪ'ᴍ ᴀɴ sᴇɴᴊᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/e2fcc368ff4a145c75f16.jpg)
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+× *ᴜᴘᴛɪᴍᴇ:* `{}`
+× `{}` *ᴜsᴇʀs, ᴀᴄʀᴏs* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Senja Robot", callback_data="yins_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ sᴇɴᴊᴀ ʀᴏʙᴏᴛ", callback_data="yins_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="ᴛʀʏ ɪɴʟɪɴᴇ!", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Senja To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ ᴀᴅᴅ sᴇɴᴊᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Hi, Saya {dispatcher.bot.first_name}. Senang bertemu dengan Anda.",
+            f"👋 ʜɪ, ɪ'ᴍ {dispatcher.bot.first_name}. ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ.",
             parse_mode=ParseMode.HTML
        )
 
@@ -360,13 +360,13 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *Senja*, a powerful group management bot built to help you manage your group easily."
-            "\n• I can restrict users."
-            "\n• I can greet users with customizable welcome messages and even set a group's rules."
-            "\n• I have an advanced anti-flood system."
-            "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
-            "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
-            "\n• I check for admins' permissions before executing any command and more stuffs"
+            text="๏ I'ᴍ *Sᴇɴᴊᴀ*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
+            "\n• I ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs."
+            "\n• I ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴏsᴛᴜᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs."
+            "\n• I ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ."
+            "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
+            "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
+            "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
             "\n\n_Yin's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for YinsRobot.",
             parse_mode=ParseMode.MARKDOWN,
@@ -374,18 +374,18 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="yins_admin"),
-                    InlineKeyboardButton(text="Notes", callback_data="yins_notes"),
+                    InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="yins_admin"),
+                    InlineKeyboardButton(text="ɴᴏᴛᴇs", callback_data="yins_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="yins_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="yins_credit"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="yins_support"),
+                    InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/inisenja/SenjaRobot"),
+                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/SenjaRobot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_back"),
                  ]
                 ]
             ),
@@ -430,7 +430,7 @@ def yins_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="yins_")]]
+                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_")]]
             ),
         )
     elif query.data == "yins_support":
@@ -441,11 +441,11 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/VinixSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Itsmevinix"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/SenjaaSupport"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Iamsenja"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="yins_"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_"),
                  
                  ]
                 ]
@@ -461,12 +461,12 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="inisenja", url="https://github.com/AyiinXd"),
-                    InlineKeyboardButton(text="Senja-Userbot", url="https://github.com/inisenja/Senja-Userbot"),
+                    InlineKeyboardButton(text="Iɴɪsᴇɴᴊᴀ", url="https://github.com/inisenja"),
+                    InlineKeyboardButton(text="Sᴇɴᴊᴀ-Usᴇʀʙᴏᴛ", url="https://github.com/inisenja/Senja-Userbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="YukkiVinix", url="https://github.com/inisenja/YukkiVinix"),
-                    InlineKeyboardButton(text="SenjaRobot", url="https://github.com/inisenja/SenjaRobot"),
+                    InlineKeyboardButton(text="YᴜᴋᴋɪSᴇɴᴊᴀ", url="https://github.com/inisenja/YukkiSenja"),
+                    InlineKeyboardButton(text="SᴇɴᴊᴀRᴏʙᴏᴛ", url="https://github.com/inisenja/SenjaRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
@@ -751,7 +751,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1829900877:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
+                "I'ᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🔥 Iғ ʏᴏᴜ ᴡᴀɴɴᴀ ᴍᴀᴋᴇ ᴍᴇ sᴍɪʟᴇ, ᴊᴜsᴛ ᴊᴏɪɴ"
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "✨ Hai, SenjaRobot Berhasil Diaktifkan",
+                "🥂 Hɪ, I'ᴍ Aʟɪᴠᴇ",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:

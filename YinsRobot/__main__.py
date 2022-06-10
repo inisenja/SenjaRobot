@@ -103,7 +103,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ sᴇɴᴊᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ ᴀᴅᴅ sᴇɴᴊᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗",
+            url=f"t.me/{dispatcher.bot.username}?startgroup=new",
     ],
 ]
 

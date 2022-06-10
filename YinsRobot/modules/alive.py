@@ -21,5 +21,5 @@ async def awake(event):
   TEXT += f"㋭ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
   TEXT += f"㋭ **sᴇɴᴊᴀʀᴏʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
   TEXT += "**Thanks For Adding Me Here ㋭**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/SenjaManageRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/SenjaManageRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)

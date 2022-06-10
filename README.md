@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/a1cec3870df7f3c5aa309.jpg">
+  <img src="https://telegra.ph/file/e2fcc368ff4a145c75f16.jpg">
 </p>
 
 <h4><p align="center"> SENJA ROBOT </p></h4>

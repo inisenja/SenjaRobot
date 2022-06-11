@@ -28,7 +28,7 @@ async def _(event):
 
             async for ayang in ubot2.iter_messages(
 
-            "@Database_TonicUbot", filter=InputMessagesFilterPhotos
+            "@papcecanindo", filter=InputMessagesFilterPhotos
 
             )
 

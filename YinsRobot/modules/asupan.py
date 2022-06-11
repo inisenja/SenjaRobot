@@ -88,38 +88,6 @@ async def _(event):
         await event.edit("**GA ADA YANG MAU SAMA LO, MAKANYA CAKEP!.**")
 
 
-@register(pattern="^/nc ?(.*)")
-
-async def _(event):
-
-    try:
-
-        bokepnya = [
-
-            bokep
-
-            async for bokep in event.client.iter_messages(
-
-                "@fakyudurov", filter=InputMessagesFilterVideo
-            )
-        
-        aing = await event.client.get_me()
-
-        await event.client.send_file(
-
-            event.chat_id,
-
-            file=random.choice(bokepnya),
-
-            caption=f"**negative content by** [{owner}](tg://user?id={aing.id})",
-        )
-        await event.delete()
-
-    except Exception:
-
-        await event.edit("**tidak ditemukan, tahsn dulu sangenya.**")
-
-
 @register(pattern="^/ncp ?(.*)")
 
 async def _(event):

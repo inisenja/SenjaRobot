@@ -1,4 +1,4 @@
-I# 🥂 © @inisenja
+# 🥂 © @inisenja
 
 # ⚠️ Don't Remove Credits
 

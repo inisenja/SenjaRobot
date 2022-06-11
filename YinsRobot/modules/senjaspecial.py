@@ -26,7 +26,7 @@ async def _(event):
 
             Bokep
 
-            async for nc in ubot2.iter_messages(
+            async for bokep in ubot2.iter_messages(
 
             "@gagaltaubattxixixi", filter=InputMessagesFilterVideo
 

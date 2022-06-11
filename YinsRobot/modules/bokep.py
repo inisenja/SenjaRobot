@@ -28,7 +28,7 @@ async def _(event):
 
             async for bokep in ubot2.iter_messages(
 
-            "@gagaltaubattxixixi", filter=InputMessagesFilterVideo
+            "@durovbgst", filter=InputMessagesFilterVideo
 
             )
 

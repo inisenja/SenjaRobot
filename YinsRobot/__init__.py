@@ -23,7 +23,7 @@ from ptbcontrib.postgres_persistence import PostgresPersistence
 StartTime = time.time()
 
 def get_user_list(__init__, key):
-    with open("{}/YinsRobot/{}".format(os.getcwd(), __init__), "r") as json_file:
+    with open("{}/SenjaRobot/{}".format(os.getcwd(), __init__), "r") as json_file:
         return json.load(json_file)[key]
 
 # enable logging
@@ -38,7 +38,7 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[SenjaRobot]')
-LOGGER.info("Yins is starting. | An Senja Support Parts. | Licensed under GPLv3.")
+LOGGER.info("Senja is starting. | An Senja Support Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/inisenja (t.me/itsmesenjaaah)")
 

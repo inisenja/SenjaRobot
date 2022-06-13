@@ -9,7 +9,7 @@
          "yinsrobot"
       ],
     
-   "logo":    "https://telegra.ph/file/e2fcc368ff4a145c75f16.jpg",  
+   "logo":    "https://telegra.ph/file/6dd5002df28d99dcba813.jpg",  
    "repository": "https://github.com/inisenja/SenjaRobot",
    "addons": [
           {
@@ -69,7 +69,7 @@
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": "5499239470"
+         "value": "5320359013"
       },
 
       "OWNER_USERNAME": {

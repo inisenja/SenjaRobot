@@ -255,8 +255,8 @@ def info(update: Update, context: CallbackContext):
 
     text = (
         f"╔═━「<b> Appraisal results:</b> 」\n"
-        f"✪ ID: <code>{user.id}</code>\n"
-        f"✪ First Name: {html.escape(user.first_name)}"
+        f"㋭ ID: <code>{user.id}</code>\n"
+        f"㋭ First Name: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "Health", url="https://t.me/Iamsenja"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="https://t.me/SenjaaSupport")
                         ],
                     ]
                 ),

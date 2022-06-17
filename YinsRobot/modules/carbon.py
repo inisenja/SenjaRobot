@@ -24,19 +24,19 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/a1cec3870df7f3c5aa309.jpg"
+MEMEK = "https://telegra.ph/file/63c1b68e0bf210f4cf639.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""㋭ **Hey I'm Senja Robot** 
+        caption=f"""㋭ **ʜᴇʏ ɪᴍ sᴇɴᴊᴀ ʀᴏʙᴏᴛ** 
 
-**Oᴡɴᴇʀ Rᴇᴘᴏ : [Sᴇɴᴊᴀ-Ex](https://t.me/Itsmesenjaaah)**
-**Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
-**Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{o}`
-**Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{s}`
-**Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{z}`
+**ᴏᴡɴᴇʀ Rᴇᴘᴏ : [Sᴇɴᴊᴀ-Ex](https://t.me/Itsmesenjaaah)**
+**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
+**ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}`
+**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}`
+**ᴠʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
 **Create your own with click button bellow.**
 """,

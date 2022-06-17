@@ -9,7 +9,7 @@ from YinsRobot.events import register
 from YinsRobot import telethn as tbot
 
 yinzver = "2.0.22"
-PHOTO = "https://telegra.ph/file/6dd5002df28d99dcba813.jpg"
+PHOTO = "https://telegra.ph/file/63c1b68e0bf210f4cf639.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
@@ -21,5 +21,5 @@ async def awake(event):
   TEXT += f"㋭ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
   TEXT += f"㋭ **sᴇɴᴊᴀʀᴏʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
   TEXT += "**Thanks For Adding Me Here ㋭**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/SenjaManageRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/SenjaMusicRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)

@@ -9,17 +9,17 @@ from YinsRobot.events import register
 from YinsRobot import telethn as tbot
 
 yinzver = "2.0.22"
-PHOTO = "https://telegra.ph/file/63c1b68e0bf210f4cf639.jpg"
+PHOTO = "https://telegra.ph/file/1b20234d9c43866f5cdd6.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'ᴍ sᴇɴᴊᴀ ʀᴏʙᴏᴛ.** \n\n"
   TEXT += "㋭ **I'ᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ** \n\n"
-  TEXT += f"㋭ **ᴏᴡɴᴇʀ : [sᴇɴᴊᴀ-ᴇx](https://t.me/itsmesenjaaah)** \n\n"
+  TEXT += f"㋭ **ᴏᴡɴᴇʀ : [sᴇɴᴊᴀ-ᴇx](https://t.me/senja_ex)** \n\n"
   TEXT += f"㋭ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ    :** `{telever}` \n\n"
   TEXT += f"㋭ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ   :** `{tlhver}` \n\n"
   TEXT += f"㋭ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
-  TEXT += f"㋭ **sᴇɴᴊᴀʀᴏʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
+  TEXT += f"㋭ **ᴛᴏᴍᴏᴇʀᴏʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{yinzver}` \n\n"
   TEXT += "**Thanks For Adding Me Here ㋭**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/SenjaMusicRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/TomoeXRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SenjaaSupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)

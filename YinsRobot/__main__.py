@@ -111,12 +111,13 @@ buttons = [
 ]
 
 
+
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @senja_ex \
+ You can support the project by contacting @AyiinXd \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -232,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 ʜɪ, ɪ'ᴍ {dispatcher.bot.first_name}. ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ.",
+            f"👋 Hi, Saya {dispatcher.bot.first_name}. Senang bertemu dengan Anda.",
             parse_mode=ParseMode.HTML
        )
 
@@ -363,32 +364,32 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'ᴍ *Tᴏᴍᴏᴇ*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
-            "\n• I ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs."
-            "\n• I ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴏsᴛᴜᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs."
-            "\n• I ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ."
-            "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
-            "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
-            "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
-            "\n\n_Tomoe licensed under the GNU General Public License v3.0_"
-            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ᴛᴏᴍᴏᴇʀᴏʙᴏᴛ.",
+            text="๏ I'm *Yins*, a powerful group management bot built to help you manage your group easily."
+            "\n• I can restrict users."
+            "\n• I can greet users with customizable welcome messages and even set a group's rules."
+            "\n• I have an advanced anti-flood system."
+            "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
+            "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
+            "\n• I check for admins' permissions before executing any command and more stuffs"
+            "\n\n_Yin's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for YinsRobot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="yins_admin"),
-                    InlineKeyboardButton(text="ɴᴏᴛᴇs", callback_data="yins_notes"),
+                    InlineKeyboardButton(text="Admins", callback_data="yins_admin"),
+                    InlineKeyboardButton(text="Notes", callback_data="yins_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="yins_support"),
-                    InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="yins_credit"),
+                    InlineKeyboardButton(text="Support", callback_data="yins_support"),
+                    InlineKeyboardButton(text="Credits", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/TomoeRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/AyiinXd/YinsRobot"),
                  ],
                  [
-                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_back"),
+                    InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
                  ]
                 ]
             ),
@@ -433,22 +434,22 @@ def yins_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_")]]
+                [[InlineKeyboardButton(text="Go Back", callback_data="yins_")]]
             ),
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ Tomoe support chats*"
+            text="*๏ Yins support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Yins.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/SenjaaSupport"),
-                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Iamsenja"),
+                    InlineKeyboardButton(text="Support", url="t.me/AyiinXdSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/AyiinSupport"),
                  ],
                  [
-                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_"),
+                    InlineKeyboardButton(text="Go Back", callback_data="yins_"),
                  
                  ]
                 ]
@@ -459,17 +460,29 @@ def yins_about_callback(update, context):
     elif query.data == "yins_credit":
         query.message.edit_text(
             text=f"๏ Credis for Yins\n"
-            "\nHere Developers Making And Give Inspiration For Made The TomoeRobot",
+            "\nHere Developers Making And Give Inspiration For Made The YinsRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Iɴɪsᴇɴᴊᴀ", url="https://github.com/inisenja"),
-                    InlineKeyboardButton(text="Sᴇɴᴊᴀ-Usᴇʀʙᴏᴛ", url="https://github.com/inisenja/Senja-Userbot"),
+                    InlineKeyboardButton(text="AyiinXd", url="https://github.com/AyiinXd"),
+                    InlineKeyboardButton(text="Ayiin-Userbot", url="https://github.com/AyiinXd/Ayiin-Userbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="SᴇɴᴊᴀMᴜsɪᴄ", url="https://github.com/inisenja/SenjaMusic"),
-                    InlineKeyboardButton(text="TᴏᴍᴏᴇRᴏʙᴏᴛ", url="https://github.com/inisenja/TomoeRobot"),
+                    InlineKeyboardButton(text="AyiinMusic", url="https://github.com/AyiinXd/AyiinMusic"),
+                    InlineKeyboardButton(text="YinsRobot", url="https://github.com/AyiinXd/YinsRobot"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
+                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
+                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
+                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
@@ -740,9 +753,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1829900877:
+        if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
-                "I'ᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🔥 Iғ ʏᴏᴜ ᴡᴀɴɴᴀ ᴍᴀᴋᴇ ᴍᴇ sᴍɪʟᴇ, ᴊᴜsᴛ ᴊᴏɪɴ"
+                "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -789,7 +802,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "ʜɪ, ɪ'ᴍ ʜᴇʀᴇ ᴊᴜsᴛ ғᴏʀ ʏᴏᴜ♡︎",
+                "✨ Hai, YinzRobot Berhasil Diaktifkan",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:

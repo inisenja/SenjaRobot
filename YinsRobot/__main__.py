@@ -106,7 +106,8 @@ buttons = [
     [
         InlineKeyboardButton(
             text="🔥 ᴀᴅᴅ ᴛᴏᴍᴏᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
-            url=f"t.me/{dispatcher.bot.username}?startgroup=new"),
+            url=f"t.me/{dispatcher.bot.username}?startgroup=new"
+        ),
     ],
 ]
 

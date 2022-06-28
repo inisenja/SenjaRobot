@@ -101,12 +101,14 @@ buttons = [
         InlineKeyboardButton(
             text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/Iamsenja"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​ 🍫", url=f"https://t.me/senjaasupport"),
+        InlineKeyboardButton(
+            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/senjaasupport"
+        ),
     ],
     [
         InlineKeyboardButton(
             text="🔥 ᴀᴅᴅ ᴛᴏᴍᴏᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
-            url=f"t.me/{dispatcher.bot.username}?startgroup=new"
+            url="t.me/TomoeXRobot?startgroup=new"
         ),
     ],
 ]

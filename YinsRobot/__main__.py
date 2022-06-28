@@ -83,29 +83,29 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴀɪ {} !*
-㋭ ɪ'ᴍ ᴀɴ sᴇɴᴊᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/63c1b68e0bf210f4cf639.jpg)
+㋭ ɪ'ᴍ ᴀɴ ᴛᴏᴍᴏᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/1b20234d9c43866f5cdd6.jpg)
 ㋭ ɪ'ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ғᴇᴀᴛᴜʀᴇꜱ!
 ────────────────────────
 〆 *ᴜᴘᴛɪᴍᴇ:* `{}`
 〆 `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *chats.*
 ────────────────────────
 ㋭ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
-㋭ ᴘᴏᴡᴇʀᴇᴅ 🍫 ʙʏ @itsmesenjaaah
+㋭ ᴘᴏᴡᴇʀᴇᴅ 🍫 ʙʏ @senja_ex
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ sᴇɴᴊᴀ ʀᴏʙᴏᴛ••", callback_data="yins_"),
+        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ ᴛᴏᴍᴏᴇ ʀᴏʙᴏᴛ••", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 👨‍💻", url="https://github.com/inisenja/SenjaRobot"
+            text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/Iamsenja"
         ),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​ 🍫", url=f"https://t.me/senjaasupport"),
     ],
     [
         InlineKeyboardButton(
-            text="🔥 ᴀᴅᴅ sᴇɴᴊᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
+            text="🔥 ᴀᴅᴅ ᴛᴏᴍᴏᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
             url=f"t.me/{dispatcher.bot.username}?startgroup=new"),
     ],
 ]
@@ -116,7 +116,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @itsmesenjaaah \
+ You can support the project by contacting @senja_ex \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -363,15 +363,15 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'ᴍ *Sᴇɴᴊᴀ*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
+            text="๏ I'ᴍ *Tᴏᴍᴏᴇ*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
             "\n• I ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs."
             "\n• I ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴏsᴛᴜᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs."
             "\n• I ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ."
             "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
-            "\n\n_Senja licensed under the GNU General Public License v3.0_"
-            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ sᴇɴᴊᴀʀᴏʙᴏᴛ.",
+            "\n\n_Tomoe licensed under the GNU General Public License v3.0_"
+            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ᴛᴏᴍᴏᴇʀᴏʙᴏᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,7 +385,7 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/SenjaRobot"),
+                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/TomoeRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_back"),
@@ -438,7 +438,7 @@ def yins_about_callback(update, context):
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ Senja support chats*"
+            text="*๏ Tomoe support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Yins.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -459,7 +459,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_credit":
         query.message.edit_text(
             text=f"๏ Credis for Yins\n"
-            "\nHere Developers Making And Give Inspiration For Made The SenjaRobot",
+            "\nHere Developers Making And Give Inspiration For Made The TomoeRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -468,8 +468,8 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="Sᴇɴᴊᴀ-Usᴇʀʙᴏᴛ", url="https://github.com/inisenja/Senja-Userbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="YᴜᴋᴋɪSᴇɴᴊᴀ", url="https://github.com/inisenja/YukkiSenja"),
-                    InlineKeyboardButton(text="SᴇɴᴊᴀRᴏʙᴏᴛ", url="https://github.com/inisenja/SenjaRobot"),
+                    InlineKeyboardButton(text="SᴇɴᴊᴀMᴜsɪᴄ", url="https://github.com/inisenja/SenjaMusic"),
+                    InlineKeyboardButton(text="TᴏᴍᴏᴇRᴏʙᴏᴛ", url="https://github.com/inisenja/TomoeRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),

@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴀɪ {} !*
-㋭ *ɪ'ᴍ ᴀɴ ᴍᴇᴏɴɢ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🍫](https://telegra.ph/file/07b8ca851561a8708ac70.jpg)*
+㋭ *ɪ'ᴍ ᴀɴ ᴄɪʟᴀᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🍫](https://telegra.ph/file/07b8ca851561a8708ac70.jpg)*
 ㋭ *ɪ'ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ғᴇᴀᴛᴜʀᴇꜱ!*
 ────────────────────────
 〆 *ᴜᴘᴛɪᴍᴇ:* `{}`
@@ -95,20 +95,20 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ ᴍᴇᴏɴɢ ʀᴏʙᴏᴛ••", callback_data="yins_"),
+        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ ᴄɪʟᴀᴀ ʀᴏʙᴏᴛ••", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/Iamsenja"
+            text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/somethingclaa"
         ),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/senjaasupport"
+            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/https://t.me/damianostott"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🔥 ᴀᴅᴅ ᴍᴇᴏɴɢ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
-            url="t.me/meongmusicrobot?startgroup=new"
+            text="🔥 ᴀᴅᴅ ᴄɪʟᴀᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
+            url="t.me/Cilamusicbot?startgroup=new"
         ),
     ],
 ]
@@ -374,7 +374,7 @@ def yins_about_callback(update, context):
             "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
-            "\n\n_Meong licensed under the GNU General Public License v3.0_"
+            "\n\n_Cila licensed under the GNU General Public License v3.0_"
             "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ᴛᴏᴍᴏᴇʀᴏʙᴏᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -389,7 +389,7 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/meongmusicrobot"),
+                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/Cilamusicbot"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_back"),
@@ -442,7 +442,7 @@ def yins_about_callback(update, context):
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ Meong support chats*"
+            text="*๏ Cila support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Yins.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -463,7 +463,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_credit":
         query.message.edit_text(
             text=f"๏ Credis for Yins\n"
-            "\nHere Developers Making And Give Inspiration For Made The meongmusicrobot",
+            "\nHere Developers Making And Give Inspiration For Made The Cilamusicbot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [

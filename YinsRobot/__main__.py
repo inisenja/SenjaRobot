@@ -83,32 +83,32 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴀɪ {} !*
-㋭ *ɪ'ᴍ ᴀɴ ᴄɪʟᴀᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🍫](https://telegra.ph/file/eba7bd6aa4b5deb89390d.jpg)*
+㋭ *ɪ'ᴍ ᴀɴ ʙᴀʙʏʟᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🇮🇩](https://telegra.ph/file/fc8bdd4dc22db9768de00.jpg)*
 ㋭ *ɪ'ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ғᴇᴀᴛᴜʀᴇꜱ!*
 ────────────────────────
 〆 *ᴜᴘᴛɪᴍᴇ:* `{}`
 〆 `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *chats.*
 ────────────────────────
 ㋭ *ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.*
-㋭ *ᴘᴏᴡᴇʀᴇᴅ 🇮🇩 ʙʏ @Deandrapratama*
+㋭ *ᴘᴏᴡᴇʀᴇᴅ 🇮🇩 ʙʏ @xbbyla*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ ᴄɪʟᴀᴀ ʀᴏʙᴏᴛ••", callback_data="yins_"),
+        InlineKeyboardButton(text="••ᴀʙᴏᴜᴛ ʙᴀʙʏʟᴀ ʀᴏʙᴏᴛ••", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/somethingclaa"
+            text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/skskayy"
         ),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/https://t.me/damianostott"
+            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/https://t.me/SenjaaSupport"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🔥 ᴀᴅᴅ ᴄɪʟᴀᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
-            url="t.me/Cilamusicbot?startgroup=new"
+            text="🔥 ᴀᴅᴅ ʙᴀʙʏʟᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ 🔥",
+            url="t.me/Babylamusicbot?startgroup=new"
         ),
     ],
 ]
@@ -367,15 +367,15 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'ᴍ *Tᴏᴍᴏᴇ*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
+            text="๏ I'ᴍ *ʙᴀʙʏʟᴀ, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ."
             "\n• I ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs."
             "\n• I ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴏsᴛᴜᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs."
             "\n• I ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ."
             "\n• I ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
-            "\n\n_Cila licensed under the GNU General Public License v3.0_"
-            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ᴛᴏᴍᴏᴇʀᴏʙᴏᴛ.",
+            "\n\n_Babyla licensed under the GNU General Public License v3.0_"
+            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ʙᴀʙʏʟᴀ ᴍᴜsɪᴄ ʙᴏᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -389,7 +389,7 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/Cilamusicbot"),
+                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/inisenja/SenjaRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="yins_back"),
@@ -415,7 +415,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, YinsRobot now ready to manage your group."
+            "\nCongragulations, BabylaMusicBot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -442,7 +442,7 @@ def yins_about_callback(update, context):
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ Cila support chats*"
+            text="*๏ Babyla support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Yins.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -473,7 +473,7 @@ def yins_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="SᴇɴᴊᴀMᴜsɪᴄ", url="https://github.com/inisenja/SenjaMusic"),
-                    InlineKeyboardButton(text="TᴏᴍᴏᴇRᴏʙᴏᴛ", url="https://github.com/inisenja/TomoeRobot"),
+                    InlineKeyboardButton(text="SᴇɴᴊᴀRᴏʙᴏᴛ", url="https://github.com/inisenja/SenjaRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),

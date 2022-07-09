@@ -30,7 +30,7 @@ MEMEK = "https://telegra.ph/file/1b20234d9c43866f5cdd6.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""㋭ **ʜᴇʏ ɪᴍ ᴛᴏᴍᴏᴇ ʀᴏʙᴏᴛ** 
+        caption=f"""㋭ **ʜᴇʏ ɪᴍ  ʀᴏʙᴏᴛ** 
 
 **ᴏᴡɴᴇʀ Rᴇᴘᴏ : [Sᴇɴᴊᴀ-Ex](https://t.me/senja_ex)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
@@ -44,7 +44,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/inisenja/TomoeRobot"), 
+                        "Repo", url="https://github.com/inisenja/BabylaMusicBot"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/SenjaaSupport")
                 ]

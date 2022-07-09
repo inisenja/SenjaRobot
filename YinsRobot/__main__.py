@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴀɪ {} !*
-㋭ *ɪ'ᴍ ᴀɴ ʙᴀʙʏʟᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🇮🇩](https://telegra.ph/file/fc8bdd4dc22db9768de00.jpg)*
+㋭ *ɪ'ᴍ ᴀɴ ʙᴀʙʏʟᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/c05b3fd99bb2cf3eaa270.jpg)*
 ㋭ *ɪ'ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ғᴇᴀᴛᴜʀᴇꜱ!*
 ────────────────────────
 〆 *ᴜᴘᴛɪᴍᴇ:* `{}`
@@ -375,7 +375,7 @@ def yins_about_callback(update, context):
             "\n• I ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs."
             "\n• I ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs."
             "\n\n_Babyla licensed under the GNU General Public License v3.0_"
-            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ʙᴀʙʏʟᴀ ᴍᴜsɪᴄ ʙᴏᴛ.",
+            "\n\n ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ʙᴀsɪᴄ ʜᴇʟᴘ ғᴏʀ ʙᴀʙʏʟᴀ ʀᴏʙᴏᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

@@ -102,7 +102,7 @@ buttons = [
             text="ᴄʜᴀɴɴᴇʟ​ 🍭", url="https://t.me/skskayy"
         ),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/https://t.me/SenjaaSupport"
+            text="sᴜᴘᴘᴏʀᴛ​ 🍫", url="https://t.me/SenjaaSupport"
         ),
     ],
     [
